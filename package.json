@@ -1,0 +1,19 @@
+{
+  "name": "how-to-suck-less-at-objective-c",
+  "version": "1.0.0",
+  "description": "Presentation for React Sydney",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blargity/How-To-Suck-Less-At-Objective-C.git"
+  },
+  "author": "Kevin Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blargity/How-To-Suck-Less-At-Objective-C/issues"
+  },
+  "homepage": "https://github.com/blargity/How-To-Suck-Less-At-Objective-C#readme"
+}
