@@ -3,15 +3,15 @@ body {
 }
 
 /* Colors */
-.metallicSeaweed {
+.reveal .metallicSeaweed {
     color: #028090 !important;
 }
 
-.nyanza {
+.reveal .nyanza {
     color: #E4FDE1 !important;
 }
 
-.fieryRose {
+.reveal .fieryRose {
     color: #F45B69 !important;
 }
 
@@ -30,8 +30,12 @@ hr {
     background-color: #E4FDE1;
 }
 
-/* Code Highlights */
-mark {
+/* Code */
+.reveal pre, .reveal code {
+    background-color: #1f1f1f;
+}
+
+.reveal mark {
     background-color: #F45B69;
 }
 

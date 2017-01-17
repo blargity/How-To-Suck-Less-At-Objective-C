@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="lib/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="lib/reveal.js/lib/css/zenburn.css">
     <link rel="stylesheet" href="lib/reveal.js/css/theme/night.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -39,10 +40,45 @@
                 <h2>It's time for you to stop avoiding the <span class="fieryRose">native</span> part of React Native.</h2>
             </section>
             <section>
-                <h2>This is part one of two<span class="fieryRose">*</span>: iOS</h2>
-                <h4 class="footnote"><span class="fieryRose">*</span> This could easily become three talks if you want to talk about Swift as well.</h4>
+                <h2>This is part one of two<span class="fieryRose">*</span></h2>
+                <h2>Objective C on iOS</h2>
+                <h4 class="footnote"><span class="fieryRose">*</span> This could easily become three talks if you want to talk about Swift as
+                    well.
+                </h4>
             </section>
-            
+            <section>
+                <h2>Let's start with concepts you'll need to know.</h2>
+            </section>
+            <section>
+                <h2>Threads. Particularly the UI thread.</h2>
+            </section>
+            <section>
+                <h2>Ok, and now just straight up syntax.</h2>
+            </section>
+            <section>
+                <h2>I'll show you how I'd do something in Javascript, then Obj C.</h2>
+            </section>
+            <section>
+                <h2>Let's call a method.</h2>
+            </section>
+            <section>
+                <h4>Javascript</h4>
+                <pre>
+                    <code data-trim>
+                        let a = 'React Sydney';
+
+                        return a.indexOf('Sydney');
+                    </code>
+                </pre>
+                <h4>Objective C</h4>
+                <pre>
+                    <code data-trim>
+                        NSString *a = @"React Sydney";
+
+                        return [a rangeOfString:@"Sydney"].location;
+                    </code>
+                </pre>
+            </section>
             <!-- section data-transition="fade-in">
                 <pre><code data-trim data-noescape>
                     const a = <mark>new Thing();</mark>
@@ -52,10 +88,14 @@
     </div>
 
     <script src="lib/reveal.js/js/reveal.js"></script>
+    <script src="lib/reveal.js/plugin/highlight/highlight.js"></script>
+
     <script>
         Reveal.initialize({
             controls: false,
         });
+
+        hljs.initHighlightingOnLoad();
     </script>
 </body>
 
