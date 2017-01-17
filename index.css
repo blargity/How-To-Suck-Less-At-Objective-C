@@ -1,0 +1,32 @@
+body {
+    background-color: #456990;
+}
+
+/* Colors */
+.metallicSeaweed {
+    color: #028090 !important;
+}
+
+.nyanza {
+    color: #E4FDE1 !important;
+}
+
+/* Horizontal Rule */
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #456990, white, #456990);
+  background-image: -moz-linear-gradient(left, #456990, white, #456990);
+  background-image: -ms-linear-gradient(left, #456990, white, #456990);
+  background-image: -o-linear-gradient(left, #456990, white, #456990); 
+}
+
+/* Progress Bar */
+.reveal .progress span {
+    background-color: #E4FDE1;
+}
+
+/* Code Highlights */
+mark {
+    background-color: #F45B69;
+}
