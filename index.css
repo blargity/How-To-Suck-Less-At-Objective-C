@@ -11,6 +11,10 @@ body {
     color: #E4FDE1 !important;
 }
 
+.fieryRose {
+    color: #F45B69 !important;
+}
+
 /* Horizontal Rule */
 hr { 
   border: 0; 
@@ -29,4 +33,10 @@ hr {
 /* Code Highlights */
 mark {
     background-color: #F45B69;
+}
+
+/* Footnotes */
+.reveal .footnote {
+  font-size: 0.5em;
+  margin-top: 4em;
 }
